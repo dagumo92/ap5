@@ -1,0 +1,13 @@
+function esPalindromo(texto) {
+return texto.split('').reverse().join('') == texto;
+}
+console.log(esPalindromo('lateleletal'));
+
+
+function restar(a,b)
+{
+    return a / b
+}
+let a = 3
+let b = 2
+console.log('valor de la resta:' + restar(a,b))
